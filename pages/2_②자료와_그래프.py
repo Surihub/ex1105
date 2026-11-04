@@ -11,7 +11,7 @@ st.subheader("1. 펭귄 자료와 대표값")
 st.dataframe(penguins, hide_index=True)
 left, right = st.columns(2)
 with left:
-    st.metric("평균 몸무게", f"{penguins['body_mass_g'].mean():.1f} g")
+    st.metric("평균 몸무게!", f"{penguins['body_mass_g'].mean():.1f} g")
 with right:
     st.metric("몸무게 중앙값", f"{penguins['body_mass_g'].median():.1f} g")
 
