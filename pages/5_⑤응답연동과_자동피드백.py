@@ -7,7 +7,7 @@ import seaborn as sns
 import streamlit as st
 
 
-st.title("⑥ 수학 문제와 단계별 피드백")
+st.title("⑤ 수학 문제와 단계별 피드백")
 st.write("탭을 선택해 문제를 풀고, 답에 맞는 피드백을 확인해 보세요.")
 
 expansion_tab, sign_tab, proof_tab, graph_tab, equation_tab, data_tab = st.tabs(
