@@ -26,6 +26,7 @@ with expansion_tab:
         submitted1 = st.form_submit_button("내 선택 확인하기")
 
     if submitted1:
+        st.session_state["answer1"] = answer1  # 제출한 답을 세션에 저장합니다.
         if answer1 is None:
             st.warning("먼저 식을 하나 선택해 주세요.")
         elif answer1 == r"$x^2 + 9$":
